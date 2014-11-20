@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="AndroidTabletPhone.AndroidTabletPhone">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+<application android:label="AndroidTabletPhone" android:theme="@style/android:Theme.DeviceDefault.Light">
+	<service android:name="com.twilio.client.TwilioClientService" android:exported="false" />
+</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>
